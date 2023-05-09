@@ -1,0 +1,173 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    body {
+        background-image: url(https://images.pexels.com/photos/1591928/pexels-photo-1591928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    nav {
+        height: 70px;
+        width: 100%;
+        background-color: #4E148C;
+        display: flex;
+    }
+    
+    .logo {
+        width: 15%;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .logo h1 {
+        font-size: 40px;
+    }
+    
+    .links {
+        width: 50%;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-left: 500px;
+    }
+    
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        margin-right: 20px;
+    }
+    
+    ul a {
+        color: white;
+    }
+    
+    .button button {
+        background-color: rgba(0, 0, 0, 0);
+        height: 35px;
+        width: 150px;
+        border-style: none;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    
+    .head h1 {
+        text-align: center;
+        font-weight: 300;
+        color: white;
+        margin-top: 70px;
+        font-size: 60px;
+        height: 150px;
+    }
+    
+    .boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box1 {
+        height: 150px;
+        width: 180px;
+        background-color: white;
+    }
+    
+    .box2 {
+        height: 170px;
+        width: 180px;
+        background-color: #4E148C;
+    }
+    
+    .box3 {
+        height: 150px;
+        width: 180px;
+        background-color: white;
+    }
+    
+    .boxes i {
+        font-size: 35px;
+        margin: 30px 70px;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .box2 i {
+        color: white;
+        margin-top: 40px;
+    }
+    
+    .box2 p {
+        color: white;
+        padding: 10px;
+    }
+    
+    .boxes p {
+        margin-top: 90px;
+        white-space: nowrap;
+        text-align: center;
+        font-weight: 550;
+    }
+    
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    
+     ::placeholder {
+        font-size: 20px;
+        font-weight: 550;
+        color: black;
+    }
+    
+    .input input {
+        height: 60px;
+        width: 40%;
+        border-style: none;
+    }
+    
+    .input button {
+        height: 60px;
+        width: 120px;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        background-color: #E05601;
+        border-style: none;
+    }
+    
+    .input button a {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .txt {
+        margin: 10px 400px;
+        color: white;
+    }
+    
+    .txt button {
+        background-color: rgba(0, 0, 0, 0);
+        border-style: none;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .txt button h3 a {
+        color: white;
+    }
